@@ -16,12 +16,13 @@ function Nav() {
           />
           <input
             autoComplete="off"
+            placeholder="Search products..."
             className="outline-none text-green-900 px-2 py-1 md:w-full min-w-[260px] rounded-md"
             type="text"
           />
         </div>
-        <Image width={30} height={30} alt="" src="/cart.svg" />
         <Image width={30} height={30} alt="" src="/filter.svg" />
+        <Image width={30} height={30} alt="" src="/cart.svg" />
       </div>
     </section>
   );
