@@ -13,15 +13,15 @@ function Product() {
           alt=""
         />
       </div>
-      <p>
+      <p className="font-bold text-green-900">
         Product name <span>(product description)</span>
       </p>
-      <div className="flex justify-between">
-        <p>$4.5</p>
+      <div className="flex justify-between text-green-800">
+        <p className="font-bold">$4.5</p>
         <p>Addis</p>
       </div>
-      <p>4.5Kg</p>
-      <div className="flex justify-between">
+      <p className="text-green-800">4.5Kg</p>
+      <div className="flex justify-between text-green-900">
         <p>4.5</p>
         <p>********</p>
       </div>
